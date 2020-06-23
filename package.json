@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeApp",
+  "name": "react-native-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,11 +14,14 @@
     "react-native": "0.62.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.3",
     "@babel/core": "7.10.3",
+    "@babel/preset-flow": "^7.10.1",
     "@babel/runtime": "7.10.3",
     "@react-native-community/eslint-config": "0.0.5",
     "babel-jest": "24.9.0",
     "eslint": "6.8.0",
+    "flow-bin": "^0.113.0",
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.58.0",
     "react-test-renderer": "16.11.0"
